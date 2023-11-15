@@ -34,7 +34,7 @@ try
             Console.WriteLine(match.Groups[2].Value.Trim());
 
             string outputLine = match.Groups[2].Value.Trim();
-            outputFile.WriteLine(outputLine + DateTime.Now.ToString());
+            outputFile.WriteLine(outputLine);
         }
     }
 }
